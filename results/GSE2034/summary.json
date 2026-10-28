@@ -1,0 +1,33 @@
+{
+  "n_samples": 286,
+  "n_probes": 22215,
+  "n_train": 228,
+  "n_test": 58,
+  "class_balance": {
+    "0": 179,
+    "1": 107
+  },
+  "er_balance": {
+    "ER+": 209,
+    "ER-": 77
+  },
+  "zero_variance_removed": 0,
+  "pca_explained_variance_first10": [
+    0.1420829365197226,
+    0.06678939931755506,
+    0.05978616793681791,
+    0.04026918437867033,
+    0.037578362305404525,
+    0.025422757385520505,
+    0.020991803494215443,
+    0.017417841073224888,
+    0.015187232614583514,
+    0.01346205681489209
+  ],
+  "feature_selection_fold_overlap": 0.4798,
+  "best_model": "LASSO",
+  "n_selected_features": 1000,
+  "n_splits": 5,
+  "test_size": 0.2,
+  "seed": 42
+}

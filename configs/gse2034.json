@@ -1,0 +1,13 @@
+{
+  "name": "GSE2034",
+  "source": "local",
+  "expression_file": "data/GSE2034.csv.gz",
+  "expression_sep": "\t",
+  "samples_in_columns": true,
+  "sample_id_strip": [".CEL.gz"],
+  "clinical_file": "data/clinical.tsv",
+  "sample_id_column": "GSM",
+  "target_column": "relapse",
+  "class_names": ["No relapse", "Relapse"],
+  "subgroup_column": "ER_status"
+}
